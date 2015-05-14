@@ -1,0 +1,12 @@
+acme_search_homepage:
+    path:     /user/hello/{name}
+    defaults: { _controller: AcmeSearchBundle:Default:index }
+acme_create_user:
+    path:     /user/create/
+    defaults: { _controller: AcmeSearchBundle:User:create }
+acme_list_user:
+    path:     /user/list/
+    defaults: { _controller: AcmeSearchBundle:User:list }
+acme_list_car:
+    path:    /car/list/
+    defaults: { _controller: AcmeSearchBundle:Car:list }
